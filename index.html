@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="image.css" />
+    <script
+      src="https://kit.fontawesome.com/1b65be4627.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="slider-wrapper">
+        <button id="prev-slide" class="slide-button">
+          <i class="fa-solid fa-chevron-left fa-lg" style="color: #fff"></i>
+        </button>
+        <div class="image-list">
+          <img src="images/coffee1.jpg" alt="coffee1" class="image-item" />
+          <img src="images/coffee2.jpg" alt="coffee1" class="image-item" />
+          <img src="images/coffee3.jpg" alt="coffee1" class="image-item" />
+          <img src="images/coffee4.jpg" alt="coffee1" class="image-item" />
+          <img src="images/coffee5.jpg" alt="coffee1" class="image-item" />
+          <img src="images/coffee6.jpg" alt="coffee1" class="image-item" />
+          <img src="images/coffee7.jpg" alt="coffee1" class="image-item" />
+          <img src="images/coffee8.jpg" alt="coffee1" class="image-item" />
+          <img src="images/coffee9.jpg" alt="coffee1" class="image-item" />
+          <img src="images/coffee10.jpg" alt="coffee1" class="image-item" />
+        </div>
+        <button id="next-slide" class="slide-button">
+          <i class="fa-solid fa-chevron-right fa-lg" style="color: #fff"></i>
+        </button>
+      </div>
+      <div class="slider-scrollbar">
+        <div class="scrollbar-track">
+          <div class="scrollbar-thumb"></div>
+        </div>
+      </div>
+    </div>
+    <script src="image.js"></script>
+  </body>
+</html>
